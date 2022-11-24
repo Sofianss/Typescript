@@ -1,8 +1,10 @@
 const nom : string = "Sofiane";
-
-function bonjour() : void {
-
+/**
+ * Fonction pour dire bonjour avec le nom
+ */
+function bonjour(prenom : string) : void {
+    console.log(bonjour("Sofiane"));
 }
 
-console.log(`Bonjour ${nom}`);
+console.log(bonjour("Sofiane"));
 
