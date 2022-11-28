@@ -1,3 +1,10 @@
+/**
+ *  r   etourne le plus grand nombre
+ * @param nombre1 nombre 1
+ * @param nombre2 nombre 2
+ * @param nombre3 nombre 3
+ */
+
 function PlusGrandNombre(nombre1: number, nombre2: number, nombre3: number) : string {
     if (nombre1 > nombre2 ){
         return `Le plus grand nombre est : ${nombre1}`;
