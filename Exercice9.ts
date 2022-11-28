@@ -1,3 +1,9 @@
+/**
+ *Fonction pour calculer la monnaie 
+ * @param nombre Valeur à identifier
+ */
+
+
 function monnaie(nombre: number): void{
     const monnaies: number[] = [500,200,100,50,20,10,5,2,1,.50,.20,.10,.05,.02,.01,0.05,0.02,0.01,];
 
