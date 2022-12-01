@@ -9,7 +9,19 @@ export default class Joueur {
 
     }
 
-    public jouer(): void {
+    public get nom(): string {
+        return this._nom;
+    }
+
+    public set nom(nouveauNom: string){
+        
+    }
+
+    public jouer(Gobelet): void {
+        return
+    }
+
+    public afficherScore(): void{
         return
     }
 }
